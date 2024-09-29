@@ -1,0 +1,45 @@
+Preprocessing Configuration:{'order': ['feature_extractor', 'scaler'], 'feature_extractor': <class 'configs.feature_extractors.RocketFeatureExtractorOverlapping'>, 'feature_extractor_hyperparams': {}, 'scaler': <class 'sklearn.preprocessing._data.StandardScaler'>, 'scaler_hyperparams': {}, 'param_grid': {}}
+ Model Configuration:{'model': <class 'xgboost.sklearn.XGBClassifier'>, 'model_hyperparams': {}, 'param_grid': {}}
+ Best Score: 0.6405570530098832
+ Best Estimator: Pipeline(steps=[('feature_extractor',
+                 <configs.feature_extractors.RocketFeatureExtractorOverlapping object at 0x000002F82E65AF50>),
+                ('scaler', StandardScaler()),
+                ('model',
+                 XGBClassifier(base_score=None, booster=None, callbacks=None,
+                               colsample_bylevel=None, colsample_bynode=None,
+                               colsample_bytree=None, device=None,
+                               early_stopping_rounds=None,
+                               enable_categorical=Fal...
+                               feature_types=None, gamma=None, grow_policy=None,
+                               importance_type=None,
+                               interaction_constraints=None, learning_rate=None,
+                               max_bin=None, max_cat_threshold=None,
+                               max_cat_to_onehot=None, max_delta_step=None,
+                               max_depth=None, max_leaves=None,
+                               min_child_weight=None, missing=nan,
+                               monotone_constraints=None, multi_strategy=None,
+                               n_estimators=None, n_jobs=None,
+                               num_parallel_tree=None,
+                               objective='multi:softprob', ...))])
+ Best Parameter Setting:{}
+	0
+mean_fit_time	0.17817234992980957
+std_fit_time	0.011320226733226992
+mean_score_time	0.001548004150390625
+std_score_time	0.0018977964067546389
+params	{}
+split0_test_score	0.5094339622641509
+split1_test_score	0.5471698113207547
+split2_test_score	0.6509433962264151
+split3_test_score	0.7904761904761904
+split4_test_score	0.7047619047619048
+mean_test_score	0.6405570530098832
+std_test_score	0.10258686926655813
+rank_test_score	1
+split0_train_score	1.0
+split1_train_score	1.0
+split2_train_score	1.0
+split3_train_score	1.0
+split4_train_score	1.0
+mean_train_score	1.0
+std_train_score	0.0
